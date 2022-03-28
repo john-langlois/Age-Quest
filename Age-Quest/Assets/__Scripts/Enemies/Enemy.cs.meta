@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: fc1d56996acb2ce4382358e5edbc451e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - questFighter: {fileID: 3044962524782457244, guid: e6ca378d10380194ea089a10be02d95b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
