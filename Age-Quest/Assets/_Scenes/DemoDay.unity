@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: f0edadff26291480a9c99bb14e809198, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 2d8c13fcd80c4c54b98713c87f1a15b6, type: 2}
 --- !u!1001 &33210540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3293,30 +3293,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 873500bae3432274ca0859f910caf8c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &745817890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745817882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c583bee6f3352446a98da520fdcff46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &745817891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745817882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b80459025297549819c62983e31b2db3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &750611866
@@ -10883,7 +10859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517970480792412095, guid: cb6e9276d7f58da4bab08913ab62953d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.24
+      value: -10.81
       objectReference: {fileID: 0}
     - target: {fileID: 4517970480792412095, guid: cb6e9276d7f58da4bab08913ab62953d, type: 3}
       propertyPath: m_LocalPosition.y

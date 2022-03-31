@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 gravityDirection;
     private Vector3 gravityMovement;
+    private Animator animator;
 
 
 
@@ -26,6 +27,14 @@ public class PlayerMovement : MonoBehaviour
         inputManager = GetComponent<InputManager>();
         playerRigidbody = GetComponent<Rigidbody>();
         cameraObject = Camera.main.transform;
+        animator = GetComponentInChildren<Animator>();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            AttackSword();
+        }
     }
 
     private void HandleMovement()
@@ -36,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         moveDirection.y = 0;
         moveDirection = moveDirection * movementSpeed;
 
+
         Vector3 movementVelocity = moveDirection;
         playerRigidbody.velocity = movementVelocity;
 
@@ -45,6 +55,10 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMovement();
         HandleRotation();
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            AttackSword();
+        }
     }
 
     private void HandleRotation()
@@ -55,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         targetDirection = cameraObject.right * inputManager.horizontalInput;
         targetDirection.Normalize();
         targetDirection.y = 0;
+        
 
         if(targetDirection == Vector3.zero)
         {
@@ -65,5 +80,13 @@ public class PlayerMovement : MonoBehaviour
         Quaternion playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
         transform.rotation = playerRotation;
+    }
+    private IEnumerator AttackSword()
+    {
+        animator.SetLayerWeight(animator.GetLayerIndex("Attack Layer"), 1);
+        animator.SetTrigger("AttackSword");
+
+        yield return new WaitForSeconds(0.9f);
+     
     }
 }
