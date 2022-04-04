@@ -1,162 +1,152 @@
+Unity Editor version:    2020.3.31f1 (6b54b7616050)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16313 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/puree/Desktop/Khalid/Age-Quest/Age-Quest
+/Users/abdul/Desktop/unity/Age-Quest/Age-Quest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49249
-Successfully changed project path to: C:/Users/puree/Desktop/Khalid/Age-Quest/Age-Quest
-C:/Users/puree/Desktop/Khalid/Age-Quest/Age-Quest
+53979
+Successfully changed project path to: /Users/abdul/Desktop/unity/Age-Quest/Age-Quest
+/Users/abdul/Desktop/unity/Age-Quest/Age-Quest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/puree/Desktop/Khalid/Age-Quest/Age-Quest/Assets
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/abdul/Desktop/unity/Age-Quest/Age-Quest/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
-    Vendor:   
-    VRAM:     8088 MB
-    Driver:   30.0.15.1215
+2022-04-04 15:52:31.784 Unity[13876:296396] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-04 15:52:31.784 Unity[13876:296396] Metal devices available: 1
+2022-04-04 15:52:31.784 Unity[13876:296396] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-04 15:52:31.784 Unity[13876:296396] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002329 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.92 ms, found 2 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.006804 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 56.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.478 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (478ms)
-		BeginReloadAssembly (44ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (371ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (141ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004553 seconds.
+Registered in 0.005722 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000227AAD50030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785CAFB40 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022786240020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AAD50030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AAD28240 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB44A020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB4E0820 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785E0D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB4E0820 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022786240020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AAD50030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB2FF830 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA32BA30 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA49C020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.61 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 78.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
+- Completed reload, in  1.672 seconds
 Domain Reload Profiling:
-	ReloadAssembly (929ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1672ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (754ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1406ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
+			SetupTypeCache (459ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (306ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (574ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.007020 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.033998 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-04-04 15:52:38.573 Unity[13876:296396] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039bd8f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-04 15:52:38.576 Unity[13876:296396] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039a8690 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1965 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.0 MB.
-System memory in use after: 159.1 MB.
+Unloading 2015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.0 MB.
+System memory in use after: 278.2 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2402.
-Total: 2.815800 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.515700 ms  DeleteObjects: 0.079500 ms)
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 2500.
+Total: 4.408699 ms (FindLiveObjects: 0.178216 ms CreateObjectMapping: 0.072810 ms MarkObjects: 3.279085 ms  DeleteObjects: 0.877086 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -164,848 +154,133 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/New Terrain.asset
   artifactKey: Guid(be46fa9a32ea14d40afe4fa402f855dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(be46fa9a32ea14d40afe4fa402f855dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0160958d4e222fa5943eb306a038ff9') in 0.034028 seconds 
-  Import took 0.037361 seconds .
-
+Start importing Assets/New Terrain.asset using Guid(be46fa9a32ea14d40afe4fa402f855dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172b5bd5fc4139cc4ada3132330549f0') in 0.194713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.772625 seconds.
-  path: Assets/__Scripts/Enemies
-  artifactKey: Guid(2628516b6c35dd443933d2ad2a23deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Enemies using Guid(2628516b6c35dd443933d2ad2a23deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8506ed658a12ecf088e580641fb900') in 0.009008 seconds 
-  Import took 0.012151 seconds .
-
+  Time since last request: 0.000348 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(2b05e5e9f3e7635469dedf800750eea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(2b05e5e9f3e7635469dedf800750eea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a43c9bbdfb450e6e32affe0756b04d2') in 0.189896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.865117 seconds.
-  path: Assets/__Scripts/Enemies/Enemy.cs
-  artifactKey: Guid(fc1d56996acb2ce4382358e5edbc451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Enemies/Enemy.cs using Guid(fc1d56996acb2ce4382358e5edbc451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec19c1ee5ab0eab35b909eb4ed032dc') in 0.010675 seconds 
-  Import took 0.013678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.765854 seconds.
-  path: Assets/__Scripts/Enemies/EnemyStats.cs
-  artifactKey: Guid(a8017974efb52384ea12173320cf5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Enemies/EnemyStats.cs using Guid(a8017974efb52384ea12173320cf5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521b1254c36e3cf7fbe36352d079ad07') in 0.006724 seconds 
-  Import took 0.009880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.015106 seconds.
-  path: Assets/__Scripts/Player/PlayerManager.cs
-  artifactKey: Guid(873500bae3432274ca0859f910caf8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Player/PlayerManager.cs using Guid(873500bae3432274ca0859f910caf8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2cb0d54ece4ac359df893228af52e') in 0.007199 seconds 
-  Import took 0.010265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.686191 seconds.
-  path: Assets/__Scripts/Player/PlayerMovement.cs
-  artifactKey: Guid(d78b8d5fcb04d274b8ee66089cc3636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Player/PlayerMovement.cs using Guid(d78b8d5fcb04d274b8ee66089cc3636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4e625267a4cc252d9e0d45a0986b1d') in 0.007247 seconds 
-  Import took 0.010506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.021583 seconds.
-  path: Assets/__Scripts/Player/TrackPlayer.cs
-  artifactKey: Guid(f6368b9f2fdfa0947802940dfe5d5154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Player/TrackPlayer.cs using Guid(f6368b9f2fdfa0947802940dfe5d5154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead4e7efe1179b97ff7c5afd3ffbae3f') in 0.006952 seconds 
-  Import took 0.009962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.755416 seconds.
-  path: Assets/_InputController/PlayerControls.inputactions
-  artifactKey: Guid(50741ba04a1d54e3c9178b3a0026d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_InputController/PlayerControls.inputactions using Guid(50741ba04a1d54e3c9178b3a0026d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61225c30e2b5c1cd4d0f0e48d465630') in 0.011931 seconds 
-  Import took 0.015117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.890192 seconds.
-  path: Assets/_Materials/back-button.png
-  artifactKey: Guid(feec2408eb666724eb8dda9119f0a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/back-button.png using Guid(feec2408eb666724eb8dda9119f0a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156cc98d5f6b9d04df55b238d4f83c11') in 0.033656 seconds 
-  Import took 0.036911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/_Materials/cleo-image.png
-  artifactKey: Guid(a5398a66b2297bc42b30542f2051b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/cleo-image.png using Guid(a5398a66b2297bc42b30542f2051b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3140db7c00cb18a163b2f49e38e77c64') in 0.014531 seconds 
-  Import took 0.017458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/_Materials/background-menu.jpg
-  artifactKey: Guid(f3518d63733551247920cbf5eb084e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/background-menu.jpg using Guid(f3518d63733551247920cbf5eb084e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683d323454678ee43f3a37e2ec8f0aae') in 0.011903 seconds 
-  Import took 0.014749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/_Materials/paula-image.png
-  artifactKey: Guid(4d5d3a7bc209fd046b4749edbd5ee39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/paula-image.png using Guid(4d5d3a7bc209fd046b4749edbd5ee39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5f13258a526663f29b50def8997fe5') in 0.021638 seconds 
-  Import took 0.024731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/_Materials/cleo-playercard.PNG
-  artifactKey: Guid(5b0e67b7eb461f24e905681353380a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/cleo-playercard.PNG using Guid(5b0e67b7eb461f24e905681353380a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c0ed469f7e9bef8050de7f19b3d474') in 0.012321 seconds 
-  Import took 0.015727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/_Materials/dakota-image.png
-  artifactKey: Guid(6ea5d901c4ae83d469eb7d8cddd0de34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/dakota-image.png using Guid(6ea5d901c4ae83d469eb7d8cddd0de34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b650b6e68346bfa4bbf8add0246909') in 0.011075 seconds 
-  Import took 0.014113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.236146 seconds.
+  Time since last request: 17.228907 seconds.
   path: Assets/_Prefabs/Enemy.prefab
   artifactKey: Guid(fee4298a6d3d0a64e94e3ff8a5a3e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Enemy.prefab using Guid(fee4298a6d3d0a64e94e3ff8a5a3e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc15a52182aec14063d0e7ad7c36e7') in 0.318242 seconds 
-  Import took 0.321995 seconds .
-
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(fee4298a6d3d0a64e94e3ff8a5a3e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ed95616399addf893a92f3c11d724a') in 1.314378 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
+  Time since last request: 0.000294 seconds.
   path: Assets/_Prefabs/Enemy2.prefab
   artifactKey: Guid(cb6e9276d7f58da4bab08913ab62953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Enemy2.prefab using Guid(cb6e9276d7f58da4bab08913ab62953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9964f462ea0e54630ef97d0c64b37c52') in 0.094789 seconds 
-  Import took 0.098225 seconds .
-
+Start importing Assets/_Prefabs/Enemy2.prefab using Guid(cb6e9276d7f58da4bab08913ab62953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fd60b6e43b957095d6255ab38919aa') in 0.372574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
+  Time since last request: 0.000713 seconds.
   path: Assets/_Prefabs/Plane.prefab
   artifactKey: Guid(134993002e8ea784dab18b6501163fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Plane.prefab using Guid(134993002e8ea784dab18b6501163fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6851dc09540abe877ea3cdb9c9af440a') in 0.018614 seconds 
-  Import took 0.021673 seconds .
-
+Start importing Assets/_Prefabs/Plane.prefab using Guid(134993002e8ea784dab18b6501163fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc747e693f33e2371c5fd758a8172e8b') in 0.534575 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.408977 seconds.
-  path: Assets/_Scenes/MainMenuScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/MainMenuScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a4b769942587eddf64bfc2f1f9bb22') in 0.006564 seconds 
-  Import took 0.009942 seconds .
-
+  Time since last request: 48.356465 seconds.
+  path: Assets/_InputController/PlayerControls.inputactions
+  artifactKey: Guid(50741ba04a1d54e3c9178b3a0026d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_InputController/PlayerControls.inputactions using Guid(50741ba04a1d54e3c9178b3a0026d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686398a8ab3117359dd3d55c51f415f2') in 0.164302 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.282779 seconds.
-  path: Assets/__Scripts/PlayerManager.cs
-  artifactKey: Guid(b80459025297549819c62983e31b2db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/PlayerManager.cs using Guid(b80459025297549819c62983e31b2db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2a4950ff2e4a7bb2cd3cf07f7ba874') in 0.003212 seconds 
-  Import took 0.007161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.637701 seconds.
-  path: Assets/__Scripts/PlayerMovement.cs
-  artifactKey: Guid(c583bee6f3352446a98da520fdcff46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/PlayerMovement.cs using Guid(c583bee6f3352446a98da520fdcff46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65476e4065fbce62fe8cbe26297b2f4') in 0.002693 seconds 
-  Import took 0.006202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.640925 seconds.
+  Time since last request: 4.158347 seconds.
   path: Assets/__Scripts/Player
   artifactKey: Guid(7ee5ea490155f7640b2fe65fd0f8bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/Player using Guid(7ee5ea490155f7640b2fe65fd0f8bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c05e83f7de47acfdef42842c32bcf') in 0.007038 seconds 
-  Import took 0.010338 seconds .
-
+Start importing Assets/__Scripts/Player using Guid(7ee5ea490155f7640b2fe65fd0f8bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfce83294ed7db23be3cb4f1b6aa8184') in 0.003070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.110836 seconds.
+  path: Assets/__Scripts/Enemies
+  artifactKey: Guid(2628516b6c35dd443933d2ad2a23deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/Enemies using Guid(2628516b6c35dd443933d2ad2a23deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b43d1a0f11d831d1a3736e8d265450') in 0.003286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.405616 seconds.
+  path: Assets/__Scripts/MainMenu.cs
+  artifactKey: Guid(92d7e81a7188f734ab0b20779f2cd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/MainMenu.cs using Guid(92d7e81a7188f734ab0b20779f2cd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff58eaf8739ffc580c45f5d17228b3') in 0.285471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.467575 seconds.
+  path: Assets/__Scripts/Teleport.cs
+  artifactKey: Guid(359d4b06ff24f4f188f2ba21a5f9195e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/Teleport.cs using Guid(359d4b06ff24f4f188f2ba21a5f9195e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a281259d7274eccad03a6554098f7a49') in 0.004429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.225289 seconds.
+  path: Assets/__Scripts/Player/TrackPlayer.cs
+  artifactKey: Guid(f6368b9f2fdfa0947802940dfe5d5154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/Player/TrackPlayer.cs using Guid(f6368b9f2fdfa0947802940dfe5d5154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad320c9b7f88b078777a17741aa70c') in 0.003575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497455 seconds.
+  path: Assets/__Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(d78b8d5fcb04d274b8ee66089cc3636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/Player/PlayerMovement.cs using Guid(d78b8d5fcb04d274b8ee66089cc3636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8683b76001dbc97ddc65cf54b0723988') in 0.003552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.526352 seconds.
+  path: Assets/__Scripts/Player/PlayerManager.cs
+  artifactKey: Guid(873500bae3432274ca0859f910caf8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Scripts/Player/PlayerManager.cs using Guid(873500bae3432274ca0859f910caf8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ecbecf3652384585aba7d483de050c') in 0.001606 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004225 seconds.
+Registered in 0.001271 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000022785A92030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB9BDE50 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA414010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB820050 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA414010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785D2CCC0 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA414010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785E0D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA414010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AC162020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB820050 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785A92030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB69D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022786139700 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-04 15:55:19.446 Unity[13876:296396] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039dbc60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
+- Completed reload, in  1.811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1812ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1598ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (525ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (665ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.8 MB.
-System memory in use after: 176.3 MB.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 314.3 MB.
+System memory in use after: 313.8 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2416.
-Total: 3.136900 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.044600 ms MarkObjects: 2.562300 ms  DeleteObjects: 0.341100 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 6.295772 ms (FindLiveObjects: 0.622057 ms CreateObjectMapping: 0.524538 ms MarkObjects: 4.704832 ms  DeleteObjects: 0.442073 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005188 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000022785A92030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227861A1030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227F395F550 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE9CD040 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AAF27020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AEA25F10 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227F395F550 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785E0D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AAF27020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AC0D0520 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE9CD040 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785A92030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227D2A94020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227ABE7C040 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (279ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.3 MB.
-System memory in use after: 176.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 2.907000 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.593600 ms  DeleteObjects: 0.067700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004090 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000227AB795E40 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227861A1030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AEA57010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE983010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB9B4020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227D27E8000 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AEA57010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785E0D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB9B4020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785CDF700 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE983010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB795E40 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE2C1890 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AABF1020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
-Domain Reload Profiling:
-	ReloadAssembly (860ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.3 MB.
-System memory in use after: 176.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2420.
-Total: 2.840200 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.542200 ms  DeleteObjects: 0.061400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004305 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000227AB795E40 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227861A1030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AD792020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE983010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB9B4020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AD5D0080 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227D281A030 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785E0D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB9B4020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022785DB6C70 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE983010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AB795E40 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AE2C1890 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AABF1020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
-Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (292ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.3 MB.
-System memory in use after: 176.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2422.
-Total: 3.046900 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.759700 ms  DeleteObjects: 0.061000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 145.077132 seconds.
-  path: Assets/__Scripts/CharacterStats.cs
-  artifactKey: Guid(3000633caa6a2f243b1e8000d16b658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/CharacterStats.cs using Guid(3000633caa6a2f243b1e8000d16b658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad02d361bea604501c0898aa5f679c1c') in 0.011973 seconds 
-  Import took 0.015802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.292566 seconds.
-  path: Assets/__Scripts/AnimatorManager.cs
-  artifactKey: Guid(fe3f2666f2c1746e9b820472f20c4b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts/AnimatorManager.cs using Guid(fe3f2666f2c1746e9b820472f20c4b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e277514f41e11c7dafbbd936346566') in 0.005578 seconds 
-  Import took 0.008584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.065074 seconds.
-  path: Assets/_Prefabs/Enemy.prefab
-  artifactKey: Guid(fee4298a6d3d0a64e94e3ff8a5a3e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Enemy.prefab using Guid(fee4298a6d3d0a64e94e3ff8a5a3e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eda5d101913b4195b4a3fe2c68681aa') in 0.156423 seconds 
-  Import took 0.160261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/_Prefabs/Enemy2.prefab
-  artifactKey: Guid(cb6e9276d7f58da4bab08913ab62953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Enemy2.prefab using Guid(cb6e9276d7f58da4bab08913ab62953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7cb633cceefb28c804276eedc5495b') in 0.011736 seconds 
-  Import took 0.014874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.744611 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
-  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd0f144014a1733c71d067dc686ba8') in 0.069375 seconds 
-  Import took 0.073094 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004543 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000227ABE32010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AF09C010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AD9E6010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002278619D020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AEE4E5A0 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AEF52F30 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA479C70 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AF1A5AE0 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227D2FAC010 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AF251B00 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AF17CC50 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227D2129650 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AA200090 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227AACED020 doesn't match image C:\Users\puree\Desktop\Khalid\Age-Quest\Age-Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (732ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2460.
-Total: 3.235600 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.041900 ms MarkObjects: 2.918000 ms  DeleteObjects: 0.062600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 218.851952 seconds.
-  path: Assets/TextMesh Pro/Shaders
-  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf723a4c8ca9b5a0e0800b705e0e5f') in 0.009735 seconds 
-  Import took 0.013172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.909845 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.006230 seconds 
-  Import took 0.009276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.141672 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1615d532dab169fd406a25610c85d83') in 0.007019 seconds 
-  Import took 0.010236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.219464 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec1587b7129bde4b287cc77833a66ca') in 0.083800 seconds 
-  Import took 0.087168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.118470 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5f62985db23ee76a099c5662db1705') in 0.015343 seconds 
-  Import took 0.018517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712cec39fbc2a66fb796f2f4fc1eaa72') in 0.035864 seconds 
-  Import took 0.039086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429a83a5b0dab493fd2413297b30fdf1') in 0.022379 seconds 
-  Import took 0.025491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b0995944d6e35a2b79adb0431dfe8b') in 0.012174 seconds 
-  Import took 0.014995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
-  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a84fd95370bcaaf27155830a746827') in 0.012063 seconds 
-  Import took 0.015260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4679cfa943babcf2e899339bf37be547') in 0.012313 seconds 
-  Import took 0.015760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b3bb17d81f844cc1bc83169a9697a') in 0.012744 seconds 
-  Import took 0.015712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef29c4ca34d686f87dc8e17cf43b25fd') in 0.022535 seconds 
-  Import took 0.025727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d429fa8d069536d0fe27da71296c94') in 0.011672 seconds 
-  Import took 0.014516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ace0c32981ae21571482f215c7ae7f') in 0.012377 seconds 
-  Import took 0.015381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6646960631d1b73778b1bf160bab52') in 0.012747 seconds 
-  Import took 0.015941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b111d7731ca511724c1d13dd77f67fe6') in 0.012696 seconds 
-  Import took 0.015877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c8220797489e345428130afb23452a') in 0.020762 seconds 
-  Import took 0.023885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
-  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d0c4413ba52b76c9e94ff3e5ca2333') in 0.012210 seconds 
-  Import took 0.015701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
-  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2dd7a81fa5d549fd9ca0d8ded55479') in 0.012006 seconds 
-  Import took 0.015458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bde660c21c515cd698c5ae25c2a7c4') in 0.012517 seconds 
-  Import took 0.015549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 233.791096 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
-  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ea1a296fa07a410ca57e3ba7a08788') in 0.113550 seconds 
-  Import took 0.117190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
-  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ead4290a230d9bc5f63a38dadaf2f44') in 0.020058 seconds 
-  Import took 0.023403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8b415a2b58086209a0acf8881e538') in 0.023594 seconds 
-  Import took 0.026220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
-  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9bb148a05aac4793d9e8f3dca43d18') in 0.095973 seconds 
-  Import took 0.099203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.799366 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb39bd9689c3f6cad55969bc8122419') in 0.008273 seconds 
-  Import took 0.011719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.835562 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
-  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc7568d856ff6249c4c62e0fa8dcc8e') in 0.006448 seconds 
-  Import took 0.009833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.422920 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da321eb65fb4c39702a55ea267d0ad49') in 0.006369 seconds 
-  Import took 0.009628 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
