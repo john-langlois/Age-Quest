@@ -6,10 +6,6 @@ public class Enemy : MonoBehaviour
 {   
     // player enemy is fighting 
     public string questPlayer;
-    // enemy stats 
-    CharacterStats enemyStats;
-    // player stats 
-    CharacterStats playerStats;
     // radius of enemy vision 
     public float lookRadius = 10f;
     // enemy mesh composition 
@@ -18,15 +14,13 @@ public class Enemy : MonoBehaviour
     Transform player; 
     
     // Start is called before the first frame update
-    void Start()
-    {   
-        enemyStats = new CharacterStats();
-        playerStats = new CharacterStats();
+    void Start(){
 
         // obtain player object's transform
         player = GameObject.Find(questPlayer).transform;
         // set enemy object 
         agent = GetComponent<NavMeshAgent>();
+
 
         enemyStats.health = 200;
         enemyStats.damage = 20;
@@ -59,13 +53,5 @@ public class Enemy : MonoBehaviour
         Quaternion faceRotation = Quaternion.LookRotation(new Vector3(faceDirection.x , 0 , faceDirection.z));
         // assign the adjustment to the enemy 
         transform.rotation = faceRotation;
-    }    
-
-    // deal damage to player 
-    void OnTriggerEnter(Collider obj){
-        // allow enemy damage to be inflicted on opponent
-        Debug.Log("Colided with big man");
-        playerStats.DealDamage(enemyStats);
-        enemyStats.DealDamage(playerStats);
-    }
+    } 
 }

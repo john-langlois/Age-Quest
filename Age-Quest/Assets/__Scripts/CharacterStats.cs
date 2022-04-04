@@ -20,4 +20,8 @@ public class CharacterStats : MonoBehaviour
     public virtual void CharacterDeath(){
         Debug.Log("enemy has been slain");
     }
+
+    public void regenerateHealth(){
+
+    }
 }
