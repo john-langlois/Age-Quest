@@ -20,13 +20,6 @@ public class Enemy : MonoBehaviour
         player = GameObject.Find(questPlayer).transform;
         // set enemy object 
         agent = GetComponent<NavMeshAgent>();
-
-
-        enemyStats.health = 200;
-        enemyStats.damage = 20;
-
-        playerStats.health = 100;
-        playerStats.damage = 10;
     }
 
     // Update is called once per frame

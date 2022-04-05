@@ -12,16 +12,5 @@ public class CharacterStats : MonoBehaviour
     public void DealDamage(CharacterStats opponent){
         // decrease opponent health based on our damage 
         opponent.health = opponent.health - damage;
-        if (health <= 0){
-            Debug.Log("Player Dead");
-            CharacterDeath();
-        }
-    }
-    public virtual void CharacterDeath(){
-        Debug.Log("enemy has been slain");
-    }
-
-    public void regenerateHealth(){
-
     }
 }
