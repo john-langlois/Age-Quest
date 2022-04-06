@@ -20,7 +20,7 @@ public class CharacterStats : MonoBehaviour
             health = 150;
             damage = 10;
         }
-        if (obj.tag == "Dakota"){
+        if (obj.tag == "Dacota"){
             health = 80;
             damage = 40;
         }
