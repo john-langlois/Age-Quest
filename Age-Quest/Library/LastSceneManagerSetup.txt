@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/_Scenes/MainMenuScene.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-- path: Assets/_Scenes/DemoDay.unity
+- path: Assets/_Scenes/Dacota.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
