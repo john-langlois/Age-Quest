@@ -9,6 +9,12 @@ TagManager:
   - playerHealth
   - Enemy2
   - Cleo
+  - Enemy1
+  - Enemy3
+  - enemyHealth1
+  - enemyHealth2
+  - Paula
+  - Dacota
   layers:
   - Default
   - TransparentFX
